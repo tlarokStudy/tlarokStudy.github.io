@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Bohdan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NachtEats — find food and dining options quickly at any hour.">
+  <meta name="keywords" content="food, night, eats, delivery, restaurant">
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <title>NachtEats — Reviews</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <section class="header-inner">
+      <figure class="brand">
+        <img src="img/icon.png" alt="NachtEats Logo" title="NachtEats Logo">
+        <h1>NachtEats</h1>
+      </figure>
+
+      <!-- Mobile Menu Toggle - moved to top -->
+      <input type="checkbox" id="mobile-menu-toggle" hidden>
+      <label for="mobile-menu-toggle" class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="find.html">Map</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="find.html" class="find-now">Find Now</a>
+
+      <!-- Mobile Sidebar - positioned after toggle for css selector -->
+      <aside class="mobile-sidebar">
+        <nav class="sidebar-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="review.html">Reviews</a></li>
+            <li><a href="pre_order.html">Pre order</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a href="find.html" class="sidebar-find-now">Find Now</a>
+        </nav>
+      </aside>
+
+      <!-- Overlay -->
+      <section class="overlay"></section>
+    </section>
+  </header>
+
+  <section id="reviews">
+    <article>
+      <h1>What the Night Owls Say</h1>
+      
+      <section class="reviews-container">
+        <section class="review-item">
+          <img src="img/review1.png" alt="Mark" title="Mark - Night Shift Worker">
+          <h3>Mark, ⭐⭐⭐⭐⭐</h3>
+          <p>"The vegan pancakes at De Grote Pan were unbelievable. Definitely coming back!"</p>
+          <strong>Tags: Vegan, Healthy</strong>
+        </section>
+        
+        <section class="review-item">
+          <img src="img/review2.png" alt="Sarah" title="Sarah - Healthcare Worker">
+          <h3>Sarah, ⭐⭐⭐⭐⭐</h3>
+          <p>"Found this amazing halal spot open at 3 AM after my hospital shift. Life saver!"</p>
+          <strong>Tags: Halal, Quick</strong>
+        </section>
+        
+        <section class="review-item">
+          <img src="img/review3.png" alt="Alex" title="Alex - Delivery Driver">
+          <h3>Alex, ⭐⭐⭐⭐</h3>
+          <p>"Budget-friendly and delicious! The night shift special kept me going through my route."</p>
+          <strong>Tags: Cheap, Filling</strong>
+        </section>
+      </section>
+
+      <section class="review-form">
+        <h2>Leave a review</h2>
+        <form action="#" method="post">
+          <label for="review-name">Name</label>
+          <input type="text" id="review-name" name="name" placeholder="Your name" required>
+          
+          <label for="review-restaurant">Restaurant</label>
+          <input type="text" id="review-restaurant" name="restaurant" placeholder="Restaurant name" required>
+          
+          <label>Stars</label>
+          <section class="star-rating">
+            <input type="radio" id="star5" name="rating" value="5">
+            <input type="radio" id="star4" name="rating" value="4">
+            <input type="radio" id="star3" name="rating" value="3">
+            <input type="radio" id="star2" name="rating" value="2">
+            <input type="radio" id="star1" name="rating" value="1">
+          </section>
+          
+          <label for="review-message">Message</label>
+          <textarea id="review-message" name="message" rows="5" placeholder="Share your experience..." required></textarea>
+          
+          <label>Tags:</label>
+          <section class="tag-options">
+            <section class="filter-group">
+              <input type="checkbox" id="tag-vegan" name="tag-vegan">
+              <label for="tag-vegan">Vegan</label>
+            </section>
+            <section class="filter-group">
+              <input type="checkbox" id="tag-cheap" name="tag-cheap">
+              <label for="tag-cheap">Cheap</label>
+            </section>
+            <section class="filter-group">
+              <input type="checkbox" id="tag-quick" name="tag-quick">
+              <label for="tag-quick">Quick</label>
+            </section>
+          </section>
+          
+          <input type="submit" value="Submit Review">
+        </form>
+      </section>
+    </article>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Bohdan. All rights reserved.</p>
+    <p><a href="#privacy">Privacy policy</a> | <a href="#terms">Terms of service</a></p>
+  </footer>
+
+  <input type="checkbox" id="cookie-toggle" hidden>
+  <aside id="cookie-banner">
+    <p>We use cookies to improve your experience. By continuing you accept our cookies.</p>
+    <label for="cookie-toggle" id="cookie-ok">OK</label>
+  </aside>
+
+</body>
+</html>
