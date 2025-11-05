@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Bohdan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NachtEats — find food and dining options quickly at any hour.">
+  <meta name="keywords" content="food, night, eats, delivery, restaurant">
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <title>NachtEats — Find Food</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <section class="header-inner">
+      <figure class="brand">
+        <img src="img/icon.png" alt="NachtEats Logo" title="NachtEats Logo">
+        <h1>NachtEats</h1>
+      </figure>
+
+      <!-- Mobile Menu Toggle - moved to top -->
+      <input type="checkbox" id="mobile-menu-toggle" hidden>
+      <label for="mobile-menu-toggle" class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="find.html" class="find-now">Find Now</a>
+
+      <!-- Mobile Sidebar - positioned after toggle for css selector -->
+      <aside class="mobile-sidebar">
+        <nav class="sidebar-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a href="find.html" class="sidebar-find-now">Find Now</a>
+        </nav>
+      </aside>
+
+      <!-- Overlay -->
+      <section class="overlay"></section>
+    </section>
+  </header>
+
+  <section id="find">
+    <article class="find-search">
+      <section class="search-content">
+        <section class="search-left">
+          <h2>Find Late-Night Food Near You</h2>
+          <p>Search for what's open now in Amsterdam</p>
+          
+          <section class="search-filters">
+            <section class="filter-group">
+              <input type="checkbox" id="open-now">
+              <label for="open-now">Open Now</label>
+            </section>
+            <section class="filter-group">
+              <input type="checkbox" id="cheap-eats">
+              <label for="cheap-eats">Cheap Eats</label>
+            </section>
+            <section class="filter-group">
+              <input type="checkbox" id="vegetarian">
+              <label for="vegetarian">Vegetarian</label>
+            </section>
+            <section class="filter-group">
+              <input type="checkbox" id="gluten-free">
+              <label for="gluten-free">Gluten-Free</label>
+            </section>
+            <section class="filter-group">
+              <input type="checkbox" id="halal">
+              <label for="halal">Halal</label>
+            </section>
+            <section class="filter-group">
+              <input type="checkbox" id="delivery">
+              <label for="delivery">Delivery</label>
+            </section>
+            <section class="filter-group">
+              <input type="checkbox" id="pre-order">
+              <label for="pre-order">Pre-Order</label>
+            </section>
+          </section>
+        </section>
+        
+        <section class="search-right">
+          <form class="search-bar">
+            <input type="text" placeholder="Search restaurants, cuisines...">
+            <input type="submit" value="Search">
+          </form>
+          <figure>
+            <img src="img/map.png" alt="Late night food search in Amsterdam" title="Find open restaurants near you">
+          </figure>
+        </section>
+      </section>
+    </article>
+  </section>
+  
+  <section id="preorder">
+    <article class="preorder-options">
+      <section class="preorder-content">
+        <section class="preorder-left">
+          <figure>
+            <img src="img/pre-order.png" alt="Pre-order food options" title="Order ahead and save time">
+          </figure>
+        </section>
+        
+        <section class="preorder-right">
+          <section class="rectangle-container">
+            <section class="rectangle-item">
+              <img src="img/service1.png" alt="Late Night Options" title="Restaurants open after 10 PM">
+              <h3>Open Now</h3>
+              <p>€€</p>
+              <p>Tags: Pizza, Family</p>
+              <p>📍 Jordaan 40</p>
+              <p>Menu: Margherita Pizza, Tiramisu</p>
+              <a href="pre_order.html" class="find-btn">Pre order</a>
+            </section>
+            <section class="rectangle-item">
+              <img src="img/service2.png" alt="Dietary Preferences" title="Filter by dietary needs">
+              <h3>Open Now</h3>
+              <p>€€</p>
+              <p>Tags: Pizza, Family</p>
+              <p>📍 Jordaan 40</p>
+              <p>Menu: Margherita Pizza, Tiramisu</p>
+              <a href="pre_order.html" class="find-btn">Pre order</a>
+            </section>
+            <section class="rectangle-item">
+              <img src="img/service3.png" alt="Quick Directions" title="Get directions quickly">
+              <h3>Open Now</h3>
+              <p>€€</p>
+              <p>Tags: Pizza, Family</p>
+              <p>📍 Jordaan 40</p>
+              <p>Menu: Margherita Pizza, Tiramisu</p>
+              <a href="pre_order.html" class="find-btn">Pre order</a>
+            </section>
+            <section class="rectangle-item">
+              <img src="img/service4.png" alt="24/7 Locations" title="Always open spots">
+              <h3>Open Now</h3>
+              <p>€€</p>
+              <p>Tags: Pizza, Family</p>
+              <p>📍 Jordaan 40</p>
+              <p>Menu: Margherita Pizza, Tiramisu</p>
+              <a href="pre_order.html" class="find-btn">Pre order</a>
+            </section>
+            <section class="rectangle-item">
+              <img src="img/service5.png" alt="Pre-Order" title="Order ahead">
+              <h3>Open Now</h3>
+              <p>€€</p>
+              <p>Tags: Pizza, Family</p>
+              <p>📍 Jordaan 40</p>
+              <p>Menu: Margherita Pizza, Tiramisu</p>
+              <a href="pre_order.html" class="find-btn">Pre order</a>
+            </section>
+            <section class="rectangle-item">
+              <img src="img/service6.png" alt="Fresh Options" title="Fresh late-night meals">
+              <h3>Open Now</h3>
+              <p>€€</p>
+              <p>Tags: Pizza, Family</p>
+              <p>📍 Jordaan 40</p>
+              <p>Menu: Margherita Pizza, Tiramisu</p>
+              <a href="pre_order.html" class="find-btn">Pre order</a>
+            </section>
+          </section>
+        </section>
+      </section>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bohdan. All rights reserved.</p>
+    <p><a href="#privacy">Privacy policy</a> | <a href="#terms">Terms of service</a></p>
+  </footer>
+
+  <input type="checkbox" id="cookie-toggle" hidden>
+  <aside id="cookie-banner">
+    <p>We use cookies to improve your experience. By continuing you accept our cookies.</p>
+    <label for="cookie-toggle" id="cookie-ok">OK</label>
+  </aside>
+
+</body>
+</html>

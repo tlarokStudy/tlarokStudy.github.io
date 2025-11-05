@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Bohdan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NachtEats — find food and dining options quickly at any hour.">
+  <meta name="keywords" content="food, night, eats, delivery, restaurant">
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <title>NachtEats — Pre-Order</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <section class="header-inner">
+      <figure class="brand">
+        <img src="img/icon.png" alt="NachtEats Logo" title="NachtEats Logo">
+        <h1>NachtEats</h1>
+      </figure>
+
+      <!-- Mobile Menu Toggle - moved to top -->
+      <input type="checkbox" id="mobile-menu-toggle" hidden>
+      <label for="mobile-menu-toggle" class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="find.html" class="find-now">Find Now</a>
+
+      <!-- Mobile Sidebar - positioned after toggle for css selector -->
+      <aside class="mobile-sidebar">
+        <nav class="sidebar-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a href="find.html" class="sidebar-find-now">Find Now</a>
+        </nav>
+      </aside>
+
+      <!-- Overlay -->
+      <section class="overlay"></section>
+    </section>
+  </header>
+
+  <section id="preorder-main">
+    <article>
+      <h1>What Our Night Owls Are Having Tonight</h1>
+      
+      <section class="preorder-filters">
+        <section class="filter-group">
+          <input type="checkbox" id="gluten-free">
+          <label for="gluten-free">Gluten-Free</label>
+        </section>
+        <section class="filter-group">
+          <input type="checkbox" id="cheap-eats">
+          <label for="cheap-eats">Cheap Eats</label>
+        </section>
+        <section class="filter-group">
+          <input type="checkbox" id="vegetarian">
+          <label for="vegetarian">Vegetarian</label>
+        </section>
+        <section class="filter-group">
+          <input type="checkbox" id="dairy-free">
+          <label for="dairy-free">Dairy-Free</label>
+        </section>
+        <section class="filter-group">
+          <input type="checkbox" id="sugar-free">
+          <label for="sugar-free">Sugar-Free</label>
+        </section>
+        <section class="filter-group">
+          <input type="checkbox" id="halal">
+          <label for="halal">Halal</label>
+        </section>
+        <section class="filter-group">
+          <input type="checkbox" id="kosher">
+          <label for="kosher">Kosher</label>
+        </section>
+        <section class="filter-group">
+          <input type="checkbox" id="paleo">
+          <label for="paleo">Paleo</label>
+        </section>
+        <section class="filter-group">
+          <input type="checkbox" id="nut-free">
+          <label for="nut-free">Nut-Free</label>
+        </section>
+      </section>
+
+      <section class="rectangle-container">
+        <section class="rectangle-item">
+          <img src="img/food1.png" alt="Vegan Burger" title="Plant-based burger">
+          <h3>Find grub open after the clock strikes ten, updated daily. No more sad desk snacks</h3>
+          <a href="#" class="find-btn">Pre-Order Now</a>
+        </section>
+        <section class="rectangle-item">
+          <img src="img/food2.png" alt="Gluten-Free Pizza" title="Wheat-free pizza">
+          <h3>Find grub open after the clock strikes ten, updated daily. No more sad desk snacks</h3>
+          <a href="#" class="find-btn">Pre-Order Now</a>
+        </section>
+        <section class="rectangle-item">
+          <img src="img/food3.png" alt="Protein Bowl" title="High-protein meal">
+          <h3>Find grub open after the clock strikes ten, updated daily. No more sad desk snacks</h3>
+          <a href="#" class="find-btn">Pre-Order Now</a>
+        </section>
+        <section class="rectangle-item">
+          <img src="img/food4.png" alt="Halal Wrap" title="Halal certified">
+          <h3>Find grub open after the clock strikes ten, updated daily. No more sad desk snacks</h3>
+          <a href="#" class="find-btn">Pre-Order Now</a>
+        </section>
+        <section class="rectangle-item">
+          <img src="img/food5.png" alt="Budget Meal" title="Affordable option">
+          <h3>Find grub open after the clock strikes ten, updated daily. No more sad desk snacks</h3>
+          <a href="#" class="find-btn">Pre-Order Now</a>
+        </section>
+        <section class="rectangle-item">
+          <img src="img/food6.png" alt="Dessert" title="Sweet treat">
+          <h3>Find grub open after the clock strikes ten, updated daily. No more sad desk snacks</h3>
+          <a href="#" class="find-btn">Pre-Order Now</a>
+        </section>
+      </section>
+    </article>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Bohdan. All rights reserved.</p>
+    <p><a href="#privacy">Privacy policy</a> | <a href="#terms">Terms of service</a></p>
+  </footer>
+
+  <input type="checkbox" id="cookie-toggle" hidden>
+  <aside id="cookie-banner">
+    <p>We use cookies to improve your experience. By continuing you accept our cookies.</p>
+    <label for="cookie-toggle" id="cookie-ok">OK</label>
+  </aside>
+
+</body>
+</html>
