@@ -1,0 +1,5 @@
+Student name: Bohdan
+Student number: 739851
+Student class: HATI25FT1A
+GitHub Repository: https://github.com/tlarokStudy/tlarokStudy.github.io
+GitHub Pages URL: https://tlarokstudy.github.io/index.html
